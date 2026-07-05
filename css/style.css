@@ -1,7 +1,7 @@
 @import url("./reset.css");
 @import url("./variables.css");
 @import url("./global.css");
-
+@import url("./navbar.css");
 @import url("./header.css");
 @import url("./hero.css");
 @import url("./categories.css");
@@ -19,4 +19,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #f5f5f5;
+}
+.section-title{
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 30px;
 }

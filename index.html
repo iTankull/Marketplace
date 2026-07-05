@@ -69,47 +69,139 @@
 
 </header>
 
-    <nav>
+    <nav class="navbar">
 
     <div class="container">
 
-        Categorias
+        <ul class="nav-list">
+            <li><a class="active" href="#">Home</a>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Eletrônicos</a></li>
+            <li><a href="#">Moda</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Livros</a></li>
+            
+
+</li>
+        </ul>
 
     </div>
 
 </nav>
 
-    <main class="container">
-
-    <section>
-
-        Banner
-
-    </section>
-
-    <section>
-
-        Categorias
-
-    </section>
-
-    <section>
-
-        Produtos
-
-    </section>
-
-</main>
-
-    <footer>
+<section class="hero">
 
     <div class="container">
 
-        Rodapé
+        <div class="hero-content">
+
+            <span class="badge">
+                🔥 Ofertas Imperdíveis
+            </span>
+
+            <h1>
+                Tecnologia que transforma seu dia
+            </h1>
+
+            <p>
+                Os melhores produtos com preços incríveis para você.
+            </p>
+
+            <button>
+                Comprar Agora
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="./assets/images/hero.png"
+                alt="Produtos em destaque"
+            >
+
+        </div>
 
     </div>
 
-</footer>
+</section>
+
+    <main class="container">
+    <section class="categories">
+
+    <div class="container">
+
+        <h2 class="section-title">Categorias</h2>
+
+        <ul class="category-list">
+
+            <li class="category-card">
+                <i data-lucide="smartphone"></i>
+                <span>Eletrônicos</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="shirt"></i>
+                <span>Moda</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="sofa"></i>
+                <span>Casa</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="dumbbell"></i>
+                <span>Esportes</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="car"></i>
+                <span>Automotivo</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="gamepad-2"></i>
+                <span>Games</span>
+            </li>
+            <li class="category-card">
+                <i data-lucide="fence"></i>
+                <span>Jardim</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="cctv"></i>
+                <span>Segurança</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="unplug"></i>
+                <span>Elétrica</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="paw_print"></i>
+                <span>Pets</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="brush-cleaning"></i>
+                <span>Limpeza</span>
+            </li>
+
+            <li class="category-card">
+                <i data-lucide="soap-dispenser-droplet"></i>
+                <span>Banheiro</span>
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+</main>
+
     <script src="./js/main.js"></script>
     <script> lucide.createIcons(); </script>
 

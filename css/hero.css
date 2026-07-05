@@ -1,0 +1,70 @@
+.hero{
+
+    margin-top:30px;
+
+}
+.hero .container{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        #bbe272
+    );
+
+    border-radius:20px;
+    padding: 30px;
+    color:white;
+    overflow:hidden;
+
+}
+.hero-content{
+
+    max-width:500px;
+
+}
+.badge{
+
+    display:inline-block;
+    background:rgba(255,255,255,.15);
+    padding:10px 16px;
+    border-radius:30px;
+    margin-bottom:20px;
+    font-size:14px;
+
+}
+.hero h1{
+
+    font-size:38px;
+    line-height:1.2;
+    margin-bottom:20px;
+
+}
+.hero p{
+
+    font-size:18px;
+    margin-bottom:35px;
+
+}
+.hero button{
+
+    background:white;
+    color:var(--primary);
+    padding:16px 28px;
+    border-radius:12px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:var(--transition);
+
+}
+.hero-image{
+
+    width:30%;
+    height:30%;
+    border-radius:20px;
+    transform:translateY(-15px);
+    transform:translateX(-60px);
+
+}

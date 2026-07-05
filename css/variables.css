@@ -2,23 +2,15 @@
 
     /* Cores */
 
-    --primary: #2563EB;
-    --primary-dark: #1D4ED8;
-
+    --primary: #467936;
+    --primary-dark: #376835;
     --background: #F5F7FA;
-
     --surface: #FFFFFF;
-
-    --text: #1E293B;
-
+    --text: #646b61;
     --text-light: #64748B;
-
     --border: #E2E8F0;
-
     --success: #16A34A;
-
     --danger: #DC2626;
-
     --warning: #F59E0B;
 
     /* Tipografia */
@@ -28,16 +20,12 @@
     /* Bordas */
 
     --radius-sm: 8px;
-
     --radius-md: 12px;
-
     --radius-lg: 18px;
 
     /* Sombras */
 
     --shadow-sm: 0 2px 8px rgba(0,0,0,.08);
-
     --shadow-md: 0 8px 20px rgba(0,0,0,.10);
-
     --transition: 0.3s ease;
 }
