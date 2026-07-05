@@ -9,38 +9,65 @@
     <title>Marketplace</title>
 
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/lucide@latest">    </script>
 
 </head>
 
 <body>
 
     <header>
-     <div class="container">
+
+    <div class="container">
 
         <div class="logo">
 
-            Marketplace
+            <h2>Marketplace</h2>
 
         </div>
 
         <div class="search">
 
-            Pesquisa
+            <span class="search-icon">
+                <i data-lucide="search"></i>
+            </span>
 
-        </div>
+            <input
+                type="text"
+                placeholder="Pesquisar produtos..."
+    >
+
+    <button>
+
+        Buscar
+
+    </button>
+
+    </div>
 
         <div class="actions">
 
-            Login
+            <button class="actions">
+                <button class="login">
+                    <i data-lucide="user"></i>
+                    Login
+                </button>
+            </button>
 
-            Favoritos
+            <button class="favorite">
+                <i data-lucide="heart"></i>
+                Wishlist
+            </button>
 
-            Carrinho
+            <button class="cart">
+                <i data-lucide="shopping-cart"></i>
+                Cart
+            </button>
 
         </div>
 
     </div>
-    </header>
+
+</header>
 
     <nav>
 
@@ -84,6 +111,7 @@
 
 </footer>
     <script src="./js/main.js"></script>
+    <script> lucide.createIcons(); </script>
 
 </body>
 
