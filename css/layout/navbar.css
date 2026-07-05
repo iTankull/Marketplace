@@ -15,18 +15,18 @@
 .nav-list a{
 
     color:var(--text);
-    font-weight:600;
+    font-weight:300;
     transition:var(--transition);
 
 }
 .nav-list a:hover{
 
-    color:var(--primarydark);
+    color:var(--primary);
 
 }
 .active{
 
-    color:var(--primarydark);
+    color:var(--primary);
     position:relative;
 
 }

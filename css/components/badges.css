@@ -1,0 +1,34 @@
+.badge{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.badge-discount{
+
+    background: linear-gradient(
+        135deg,
+        #ef4444,
+        #dc2626
+    );
+
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(239, 68, 68, .25);
+}
+.badge-new{
+
+    background:#22c55e;
+    color:white;
+
+}
+.badge-hot{
+
+    background:#f97316;
+    color:white;
+
+}

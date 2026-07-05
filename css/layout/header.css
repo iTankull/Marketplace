@@ -2,14 +2,14 @@ header{
 
     background:var(--surface);
     border-bottom:1px solid var(--border);
-
+    
 }
 header .container{
 
     display:flex;
     justify-content:space-between;
     align-items:center;
-    height:80px;
+    height:100px;
 
 }
 .logo h2{

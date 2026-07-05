@@ -24,3 +24,41 @@
     background:var(--primary-dark);
 
 }
+.favorite-btn{
+
+    position:absolute;
+    top:16px;
+    right:16px;
+    width:42px;
+    height:42px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:none;
+    border-radius:50%;
+    background:#ffffff;
+    cursor:pointer;
+    transition:var(--transition);
+    z-index:2;
+}
+.favorite-btn svg{
+
+    width:20px;
+    height:20px;
+    color:#6b7280;
+    transition:var(--transition);
+}
+.favorite-btn:hover{
+
+    transform:scale(1.08);
+    box-shadow:0 8px 24px rgba(0,0,0,.15);
+}
+.favorite-btn:hover svg{
+
+    color:#ef4444;
+}
+.favorite-btn.is-favorite svg{
+
+    color: #ef4444;
+
+}

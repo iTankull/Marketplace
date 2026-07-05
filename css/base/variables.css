@@ -2,16 +2,17 @@
 
     /* Cores */
 
-    --primary: #467936;
-    --primary-dark: #376835;
+    --primary: #0455BF;
+    --primary-dark: #056CF2;
     --background: #F5F7FA;
     --surface: #FFFFFF;
     --text: #646b61;
     --text-light: #64748B;
     --border: #E2E8F0;
+    --border-color: #cacaca3f;
     --success: #16A34A;
     --danger: #DC2626;
-    --warning: #F59E0B;
+    --warning: #D9A13B;
 
     /* Tipografia */
 

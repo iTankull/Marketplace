@@ -5,13 +5,19 @@
 @import url("./base/global.css");
 
 /* Layout */
-
+@import url("./layout/footer.css");
 @import url("./layout/header.css");
+@import url("./layout/topbar.css");
 @import url("./layout/navbar.css");
 @import url("./layout/hero.css");
 
 /* Components */
-
+@import url("./components/categories.css");
+@import url("./components/products.css");
+@import url("./components/badges.css");
+@import url("./components/filters.css");
+@import url("./components/forms.css");
+@import url("./components/tags.css");
 @import url("./components/buttons.css");
 @import url("./components/cards.css");
 @import url("./components/sections.css");
@@ -151,6 +157,13 @@ body {
     padding:6px 12px;
     border-radius:20px;
     font-size:13px;
+    font-weight:600;
+
+}
+.savings{
+
+    font-size:.78rem;
+    color:#16a34a;
     font-weight:600;
 
 }

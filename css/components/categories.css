@@ -13,24 +13,17 @@
 .category-card{
 
     display:flex;
-
     flex-direction:column;
-
     justify-content:center;
-
     align-items:center;
-
     padding:35px;
-
     gap:18px;
-
     min-height:140px;
 }
 .category-card:hover{
 
     transform:translateY(-6px);
     box-shadow:var(--shadow-md);
-    border-color:var(--primary);
 
 }
 .category-card svg{

@@ -1,0 +1,74 @@
+.product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-image img{
+    width: 100%;
+    max-width: 220px;
+    object-fit: contain;
+}
+.product-image .badge{
+
+    position:absolute;
+    top:16px;
+    left:16px;
+}
+.product-prices{
+
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    margin-top:8px;
+
+}
+.old-price{
+
+    font-size:.85rem;
+    opacity:.75;
+    color:#9ca3af;
+    letter-spacing:.2px;
+    text-decoration:line-through;
+
+}
+.current-price{
+
+    font-size:1.35rem;
+    font-weight:700;
+    color:var(--primary);
+
+}
+.savings{
+
+    font-size: .75rem;
+
+    font-weight: 600;
+
+    color: #16a34a;
+
+}
+.invisible{
+
+    visibility:hidden;
+
+}
+.product-rating{
+
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+.stars{
+
+    color:#f59e0b;
+    font-size:.9rem;
+}
+.reviews{
+
+    font-size:.85rem;
+    color:#6b7280;
+}

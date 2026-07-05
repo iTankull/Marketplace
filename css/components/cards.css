@@ -9,15 +9,32 @@
         transform .25s ease,
         box-shadow .25s ease,
         border-color .25s ease;
-
     cursor: pointer;
 }
 
 .card:hover{
-    transform: translateY(-6px);
-    box-shadow: var(--shadow-md);
+
+    border:1px solid transparent;
+
+    background:
+
+        linear-gradient(white, white) padding-box,
+        linear-gradient(
+            125deg,
+            var(--primary),
+            #17e4ff
+        ) border-box;
+
 }
 
 .category-card:hover{
-    border-color: var(--primary);
+    border:1px solid transparent;
+
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(
+            125deg,
+            var(--primary),
+            #1eddff
+        ) border-box;
 }

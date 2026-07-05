@@ -1,6 +1,6 @@
 .hero{
 
-    margin-top:30px;
+    margin-top:40px;
 
 }
 .hero .container{
@@ -9,14 +9,14 @@
     justify-content:space-between;
     align-items:center;
     background:linear-gradient(
-        135deg,
+        115deg,
         var(--primary),
-        #bbe272
+        #b8effc
     );
 
-    border-radius:20px;
-    padding: 30px;
-    color:white;
+    border-radius:35px;
+    padding: 25px;
+    color:rgb(255, 255, 255);
     overflow:hidden;
 
 }
@@ -25,10 +25,10 @@
     max-width:500px;
 
 }
-.badge{
+.hero-badge{
 
     display:inline-block;
-    background:rgba(255,255,255,.15);
+    background:rgba(255, 255, 255, 0.15);
     padding:10px 16px;
     border-radius:30px;
     margin-bottom:20px;
@@ -61,10 +61,11 @@
 }
 .hero-image{
 
-    width:30%;
-    height:30%;
-    border-radius:20px;
+    width:25%;
+    height:25%;
+    border: radius 10px;
     transform:translateY(-15px);
-    transform:translateX(-60px);
+    transform:translateX(-20px);
+    
 
 }
