@@ -1,0 +1,23 @@
+.card {
+    background: #fff;
+    border-radius: 18px;
+    border: 1px solid transparent;
+
+    box-shadow: var(--shadow-sm);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease;
+
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-md);
+}
+
+.category-card:hover{
+    border-color: var(--primary);
+}

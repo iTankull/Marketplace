@@ -1,15 +1,26 @@
-@import url("./reset.css");
-@import url("./variables.css");
-@import url("./global.css");
-@import url("./navbar.css");
-@import url("./header.css");
-@import url("./hero.css");
-@import url("./categories.css");
-@import url("./products.css");
-@import url("./filters.css");
-@import url("./footer.css");
+/* Base */
 
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./base/global.css");
+
+/* Layout */
+
+@import url("./layout/header.css");
+@import url("./layout/navbar.css");
+@import url("./layout/hero.css");
+
+/* Components */
+
+@import url("./components/buttons.css");
+@import url("./components/cards.css");
+@import url("./components/sections.css");
+
+/* Pages */
+
+@import url("./pages/home.css");
 @import url("./responsive.css");    * 
+
 {
     margin: 0;
     padding: 0;
@@ -24,4 +35,122 @@ body {
     text-align: left;
     padding-left: 5px;
     margin-bottom: 30px;
+}
+.section-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.see-all{
+
+    color:var(--primary);
+    font-weight:600;
+    transition:var(--transition);
+}
+.see-all:hover{
+
+    opacity:.8;
+}
+.product-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px;
+
+}
+.product-card{
+
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+
+}
+.product-image{
+
+    height:260px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
+
+}
+.product-image img{
+
+    width:100%;
+    height:100%;
+    object-fit:contain;
+
+}
+.product-info{
+
+    padding:20px;
+}
+.price{
+
+    font-size:26px;
+    font-weight:bold;
+    color:var(--primary);
+    margin:15px 0;
+
+}
+.product-info button{
+
+    width:100%;
+
+}
+.product-image{
+
+    background:#F8FAFC;
+
+}
+.product-image{
+
+    position:relative;
+
+}
+.favorite-btn{
+
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:none;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    box-shadow:var(--shadow-sm);
+    transition:var(--transition);
+
+}
+.favorite-btn:hover{
+
+    transform:scale(1.08);
+
+}
+.favorite-btn svg{
+
+    width:20px;
+
+    height:20px;
+
+}
+.discount{
+
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#EF4444;
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+
 }

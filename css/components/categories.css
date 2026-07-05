@@ -7,20 +7,24 @@
 }
 .category-list{
     display:grid;
-    grid-template-columns:repeat(6,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
     gap:20px;
 }
 .category-card{
-    background:white;
-    border-radius:16px;
-    padding:30px;
+
     display:flex;
+
     flex-direction:column;
+
+    justify-content:center;
+
     align-items:center;
-    gap:15px;
-    cursor:pointer;
-    transition:var(--transition);
-    box-shadow:var(--shadow-sm);
+
+    padding:35px;
+
+    gap:18px;
+
+    min-height:140px;
 }
 .category-card:hover{
 
