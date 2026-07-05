@@ -1,1 +1,1 @@
-console.log("Marketplace iniciado!");
+console.log(products);
