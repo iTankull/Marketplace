@@ -1,0 +1,17 @@
+body {
+
+    font-family: var(--font-family);
+
+    background: var(--background);
+
+    color: var(--text);
+
+}
+
+.container {
+
+    width: min(1400px, 95%);
+
+    margin: auto;
+
+}
