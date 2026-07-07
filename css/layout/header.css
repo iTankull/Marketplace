@@ -19,6 +19,16 @@ header .container{
     cursor:pointer;
 
 }
+
+.logo img{
+
+    display:block;
+    width:auto;
+    max-width:86px;
+    height:72px;
+    object-fit:contain;
+
+}
 .search{
 
     display:flex;
