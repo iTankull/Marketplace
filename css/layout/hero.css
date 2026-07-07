@@ -63,9 +63,9 @@
 
     width:25%;
     height:25%;
-    border: radius 10px;
-    transform:translateY(-15px);
-    transform:translateX(-20px);
+
+    border-radius:10px;
+    transform:translate(-20px, -15px);
     
 
 }

@@ -140,13 +140,24 @@ function createProductCard(product){
     `;
 }
 const container = document.getElementById("products-container");
-container.innerHTML = "";
+function renderProducts(list, containerId){
 
-products.forEach(function(product){
+    const container =
+        document.getElementById(containerId);
 
-    container.innerHTML += createProductCard(product);
+    container.innerHTML = "";
 
-});
+    list.forEach(function(product){
+
+        container.innerHTML +=
+            createProductCard(product);
+
+    });
+}
+renderProducts(
+    products,
+    "products-container"
+);
 
 lucide.createIcons();
 

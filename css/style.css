@@ -10,6 +10,7 @@
 @import url("./layout/topbar.css");
 @import url("./layout/navbar.css");
 @import url("./layout/hero.css");
+@import url("./layout/carousel.css");
 
 /* Components */
 @import url("./components/categories.css");
@@ -25,9 +26,9 @@
 /* Pages */
 
 @import url("./pages/home.css");
-@import url("./responsive.css");    * 
+@import url("./responsive.css"); 
 
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
