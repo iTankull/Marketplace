@@ -26,7 +26,7 @@
 /* Pages */
 
 @import url("./pages/home.css");
-@import url("./responsive.css"); 
+@import url("./pages/responsive.css");
 
 * {
     margin: 0;
