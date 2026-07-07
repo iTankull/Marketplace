@@ -22,7 +22,7 @@
 }
 .hero-content{
 
-    max-width:500px;
+    max-width:600px;
 
 }
 .hero-badge{
@@ -61,10 +61,10 @@
 }
 .hero-image{
 
-    width:25%;
-    height:25%;
+    width:45%;
+    height:35%;
     border-radius:10px;
-    transform:translate(-20px, -15px);
+    transform:translate(-40px, -15px);
     
 
 }
