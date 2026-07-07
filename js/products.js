@@ -65,59 +65,59 @@ const products = [
 
     {
         id:5,
-        name: "Notebook Gamer Pro",
-        image: "./Assets/images/notebookgamer.png",
-        price: 8999,
-        rating: 4.9,
-        reviews: 64,
-        discount: 12,
+        name: "SSD M.2 NVMe 1TB MP400",
+        image: "./Assets/images/MP400.avif",
+        price: 1159,
+        rating: 4.2,
+        reviews: 164,
+        discount: 10,
         favorite: false,
         platformStats: {
-            favorites: 963,
-            visits: 15480,
-            sales: 224
+            favorites: 263,
+            visits: 1280,
+            sales: 1224
         }
     },
 
     {
         id:6,
-        name: "Teclado Mecanico RGB",
-        price: 429,
-        image: "./Assets/images/keyboardgamer.png",
-        discount: 25,
-        rating: 4.6,
-        reviews: 148,
+        name: "Corsair SF1000 80 Plus Platinum",
+        price: 1999,
+        image: "./Assets/images/SF1000PSU.avif",
+        discount: 5,
+        rating: 4.9,
+        reviews: 1148,
         favorite: false,
         platformStats: {
             favorites: 587,
-            visits: 11210,
-            sales: 531
+            visits: 9210,
+            sales: 331
         }
     },
 
     {
         id:7,
-        name: "Mouse Gamer Wireless",
-        price: 259,
-        image: "./Assets/images/mousegamer.png",
-        discount: 10,
-        rating: 4.4,
-        reviews: 193,
+        name: "Corsair TC500 Luxe",
+        price: 5199,
+        image: "./Assets/images/TC500-Chair.avif",
+        discount: 35,
+        rating: 4.2,
+        reviews: 63,
         favorite: false,
         platformStats: {
-            favorites: 476,
-            visits: 10190,
-            sales: 689
+            favorites: 1476,
+            visits: 6263,
+            sales: 289
         }
     },
 
     {
         id:8,
-        name: "Headset Surround 7.1",
-        price: 649,
-        image: "./Assets/images/headsetgamer.png",
-        discount: 18,
-        rating: 4.7,
+        name: "Corsair 2500X, Mid Tower Case",
+        price: 1300,
+        image: "./Assets/images/2500X-Case.avif",
+        discount: 23,
+        rating: 4.1,
         reviews: 102,
         favorite: false,
         platformStats: {
