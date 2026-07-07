@@ -185,16 +185,24 @@ header .container{
 
         width:42px;
         height:42px;
+        padding:0;
+        gap:0;
         justify-content:center;
+        align-items:center;
         border-radius:50%;
         background:#f8fafc;
         font-size:0;
+        line-height:0;
 
     }
 
     .actions button svg{
 
-        flex:0 0 20px;
+        display:block;
+        flex:0 0 auto;
+        width:20px;
+        height:20px;
+        margin:0;
 
     }
 
