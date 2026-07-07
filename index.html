@@ -27,9 +27,9 @@
         <div class="logo">
 
             <img
-                src="./assets/images/logo-crea.svg"
+                src="./Assets/images/logo-crea.svg"
                 alt="Logo do Marketplace"   
-            </img>  
+            >  
         </div>
 
         <div class="search">
@@ -120,7 +120,7 @@
         </div>
         <div class="hero-image">
             <img
-                src="./assets/images/hero.png"
+                src="./Assets/images/hero.png"
                 alt="Produtos em destaque"
             >
         </div>
@@ -209,15 +209,97 @@
             </a>
         </div>
 
-        <div id="products-container" class="product-grid">
+        <div class="product-carousel" aria-label="Produtos em destaque">
+            <button
+                class="carousel-arrow carousel-arrow-left"
+                type="button"
+                aria-label="Produto anterior">
+                <i data-lucide="chevron-left"></i>
+            </button>
+
+            <div class="carousel-viewport">
+                <div id="products-container" class="product-grid carousel-track">
+                    <!-- O JavaScript vai preencher aqui -->
+                </div>
+            </div>
+
+            <button
+                class="carousel-arrow carousel-arrow-right"
+                type="button"
+                aria-label="Proximo produto">
+                <i data-lucide="chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="market-insights section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">
+                Preferidos da plataforma
+            </h2>
+            <a href="#" class="see-all">
+                Ver rankings
+            </a>
+        </div>
+
+        <div id="market-insights-container" class="market-insights-grid">
             <!-- O JavaScript vai preencher aqui -->
         </div>
     </div>
 </section>
 
-</section>
-
 </main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img
+                    src="./Assets/images/logo-crea.svg"
+                    alt="Logo do Marketplace">
+                <p>
+                    Um marketplace para encontrar ofertas, produtos em alta e marcas confiaveis em poucos cliques.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Atendimento</h3>
+                <a href="#">Central de ajuda</a>
+                <a href="#">Trocas e devolucoes</a>
+                <a href="#">Acompanhar pedido</a>
+                <a href="#">Fale conosco</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Marketplace</h3>
+                <a href="#">Sobre nos</a>
+                <a href="#">Venda conosco</a>
+                <a href="#">Politica de privacidade</a>
+                <a href="#">Termos de uso</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Categorias</h3>
+                <a href="#">Eletronicos</a>
+                <a href="#">Games</a>
+                <a href="#">Casa</a>
+                <a href="#">Esportes</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>
+                &copy; 2026 Marketplace. Todos os direitos reservados.
+            </span>
+            <span>
+                Pagamento seguro | Compra protegida
+            </span>
+        </div>
+    </div>
+</footer>
+
     <script src="./js/products.js"></script>
     <script src="./js/main.js"></script>
 

@@ -63,8 +63,7 @@ body {
 }
 .product-grid{
 
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
+    display:flex;
     gap:24px;
 
 }
@@ -166,5 +165,53 @@ body {
     font-size:.78rem;
     color:#16a34a;
     font-weight:600;
+
+}
+
+.market-insights-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+
+}
+
+.market-insight-card .product-image{
+
+    height:310px;
+
+}
+
+.product-metric{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:12px;
+    padding:10px 12px;
+    border-radius:var(--radius-sm);
+    background:#eef6ff;
+    color:var(--primary);
+    font-size:.86rem;
+    font-weight:600;
+
+}
+
+.product-metric strong{
+
+    color:#0f172a;
+    font-size:.9rem;
+    white-space:nowrap;
+
+}
+
+@media (max-width:900px){
+
+    .market-insights-grid{
+
+        grid-template-columns:1fr;
+
+    }
 
 }

@@ -1,108 +1,124 @@
 .product-carousel{
 
-    background:#fff;
     display:flex;
-    border-radius:20px;
-
-    padding:32px;
-
-    margin:50px auto;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.05);
-
-}
-.carousel-header{
-
-    display:flex;
-
-    justify-content:space-between;
-
     align-items:center;
-
-    margin-bottom:25px;
-
-}
-.header-text h2{
-
-    font-size:28px;
-
-    margin-bottom:6px;
+    gap:16px;
+    width:100%;
 
 }
-.header-text p{
 
-    color:#777;
+.carousel-viewport{
 
-    font-size:15px;
-
-}
-.view-all-btn{
-
-    border:none;
-
-    background:#f2f2f2;
-
-    padding:12px 18px;
-
-    border-radius:12px;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-    font-weight:600;
+    flex:1;
+    overflow:hidden;
 
 }
-.view-all-btn:hover{
 
-    background:#111;
-
-    color:white;
-
-}
-.carousel-content{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:20px;
-
-}
 .carousel-track{
 
     display:flex;
-
-    gap:20px;
-
-    overflow:hidden;
-
+    gap:24px;
+    overflow-x:auto;
+    overflow-y:hidden;
     scroll-behavior:smooth;
-
-    flex:1;
+    scroll-snap-type:x mandatory;
+    scrollbar-width:none;
 
 }
+
+.carousel-track::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.carousel-track .product-card{
+
+    flex:0 0 calc((100% - 72px) / 4);
+    scroll-snap-align:start;
+
+}
+
 .carousel-arrow{
 
     width:48px;
-
     height:48px;
-
+    flex:0 0 48px;
     border:none;
-
     border-radius:50%;
-
-    background:white;
-
-    box-shadow:0 5px 20px rgba(0,0,0,.12);
-
+    background:var(--surface);
+    color:var(--primary);
+    display:flex;
+    align-items:center;
+    justify-content:center;
     cursor:pointer;
-
-    transition:.25s;
+    box-shadow:0 5px 20px rgba(0,0,0,.12);
+    transition:
+        opacity .25s ease,
+        transform .25s ease,
+        color .25s ease;
 
 }
+
+.carousel-arrow svg{
+
+    width:24px;
+    height:24px;
+
+}
+
 .carousel-arrow:hover{
 
     transform:scale(1.08);
+
+}
+
+.carousel-arrow.is-edge{
+
+    opacity:.42;
+
+}
+
+@media (max-width:1024px){
+
+    .carousel-track .product-card{
+
+        flex-basis:calc((100% - 48px) / 3);
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .product-carousel{
+
+        gap:10px;
+
+    }
+
+    .carousel-arrow{
+
+        width:42px;
+        height:42px;
+        flex-basis:42px;
+
+    }
+
+    .carousel-track .product-card{
+
+        flex-basis:calc((100% - 24px) / 2);
+
+    }
+
+}
+
+@media (max-width:520px){
+
+    .carousel-track .product-card{
+
+        flex-basis:100%;
+
+    }
 
 }
